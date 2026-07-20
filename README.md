@@ -1,5 +1,9 @@
 # DesynthID local reconstruction
 
+## What SynthID looks like
+
+![SynthID visualization](https://raw.githubusercontent.com/dennisvink/desynthid/refs/heads/main/assets/img/synthid_visualised.jpg)
+
 This Go CLI performs a local VAE-only image round trip using a Metal-enabled
 `stable-diffusion.cpp` server. It downsizes automatically, performs one
 zero-denoise VAE encode/decode, upscales to the original dimensions, and writes
@@ -144,4 +148,3 @@ access the Metal device.
 
 The automatic downscaling is intentional: full 4096×4096 VAE processing can
 require an impractically large temporary buffer.
-
