@@ -1,0 +1,7 @@
+attic/
+desynthid
+bin/
+models/
+.third_party/
+*_desynthed.png
+*_diff.png
