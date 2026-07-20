@@ -1,13 +1,13 @@
 # DesynthID local reconstruction
 
-## What SynthID looks like
-
-![SynthID visualization](https://raw.githubusercontent.com/dennisvink/desynthid/refs/heads/main/assets/img/synthid_visualised.jpg)
-
 This Go CLI performs a local VAE-only image round trip using a Metal-enabled
 `stable-diffusion.cpp` server. It downsizes automatically, performs one
 zero-denoise VAE encode/decode, upscales to the original dimensions, and writes
 a fresh PNG without copying input metadata.
+
+## What SynthID looks like
+
+![SynthID visualization](https://raw.githubusercontent.com/dennisvink/desynthid/refs/heads/main/assets/img/synthid_visualised.jpg)
 
 ## Requirements
 
